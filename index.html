@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <section class="main-content">
+    <img src="./images/logo.svg" alt="logo" class="logo">
+    <div class="hero">
+      <fieldset class="bill input">
+        <legend>Bill</legend>
+        <input type="number" class="bill-value" id="bill-value">
+      </fieldset>
+      <div class="tip">
+        <div class="tip-header">Select Tip %</div>
+        <div class="tip-values">
+          <div class="tip-perc" id="5">5%</div>
+          <div class="tip-perc" id="10">10%</div>
+          <div class="tip-perc" id="15">15%</div>
+          <div class="tip-perc" id="25">25%</div>
+          <div class="tip-perc" id="50">50%</div>
+          <input class="custom" type="number" placeholder="Custom">
+        </div>
+      </div>
+      <fieldset class="people input">
+        <legend>Number of People</legend>
+        <input type="number" class="people-number">
+      </fieldset>
+      <div class="output-section">
+        <div class="tip-output">
+          <div>Tip Amount</div>
+          <div class="gray-text">/ person</div>
+        </div>
+          <div class="tip-amount value">$0.00</div>
+        <div class="total">
+          <div>Total</div>
+          <div class="gray-text">/ person</div>
+        </div>
+        <div class="total-amount value">$0.00</div>
+        <button class="btn reset" type="reset">RESET</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/JukiX" target="_blank">Jakub Olbrycht</a>.
+  </div>
+</body>
+</html>
