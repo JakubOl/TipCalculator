@@ -6,3 +6,7 @@ Technologies:
   *Css
 
 View it: https://jakubol.github.io/TipCalculator/
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
