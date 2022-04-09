@@ -1,12 +1,20 @@
 # TipCalculator
+https://jakubol.github.io/TipCalculator/
+## General info
 Application for calculating the amount of tips.
-Technologies:
-  *JavaScript
-  *Html
-  *Css
+## Technologies:
+ Project is created with:<br>
+* JavaScript<br>
+* Html<br>
+* Css<br>
 
-View it: https://jakubol.github.io/TipCalculator/
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../TipCalculator
+$ npm install
+$ npm start
+```
+
+
